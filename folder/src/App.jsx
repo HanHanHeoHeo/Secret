@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
       <Toaster position="top-center" reverseOrder={false} />
       <Routes>
-        <Route path="/Secret" element={<Component/>}/>
+        <Route path="/" element={<Component/>}/>
       </Routes>
     </BrowserRouter>
   )
